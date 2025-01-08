@@ -19,6 +19,6 @@ from django.urls import path , include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('aiEngine/', include('aiEngine.urls')),  # Include the URL config of the aiLoad ap
+    path('', include('aiEngine.urls')),  # Include the URL config of the aiLoad ap
     
 ]

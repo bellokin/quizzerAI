@@ -60,7 +60,7 @@ DEBUG = True
  
 
 ALLOWED_HOSTS = [ 
-    'quizzerai.onrender.com'
+    'quizzerai.onrender.com','127.0.0.1'
 ]
  
 CORS_ALLOW_ALL_ORIGINS = True
