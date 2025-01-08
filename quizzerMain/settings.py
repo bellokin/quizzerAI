@@ -59,7 +59,9 @@ DEBUG = True
 
  
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [ 
+    'quizzerai.onrender.com'
+]
  
 CORS_ALLOW_ALL_ORIGINS = True
 
